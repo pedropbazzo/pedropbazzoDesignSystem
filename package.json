@@ -1,6 +1,6 @@
 {
-  "name": "dash",
-  "version": "0.0.1",
+  "name": "dash-design-system",
+  "version": "0.0.2",
   "private": false,
   "homepage": "",
   "dependencies": {
