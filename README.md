@@ -1,7 +1,8 @@
 # [Pedro P. Bazzo Design System - Black Dashboard React]() 
 
-## DEsign System - PT-br
-
+```
+Dash
+.
 ├── package.json
 ├── CHANGELOG.md
 ├── ISSUE_TEMPLATE.md
@@ -62,12 +63,10 @@
         ├── Typography.js
         └── UserProfile.js
 ```
+
+
 ## Licensing
 
 - Copyright 2021 Pedro P. Bazzo (http://www.pedropbazzo.com.br/)
-- Licensed under MIT
-
-## Useful Links
-
-More products from Pedro P. Bazzo: <http://www.pedropbazzo.com.br>
+- Licensed under MIT 
 
