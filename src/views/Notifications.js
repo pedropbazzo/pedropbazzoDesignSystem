@@ -45,8 +45,7 @@ function Notifications() {
       message: (
         <div>
           <div>
-            Welcome to <b>Black Dashboard React</b> - a beautiful freebie for
-            every web developer.
+            Bem vindo ao <b>Design System Dash React</b>
           </div>
         </div>
       ),
