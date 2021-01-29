@@ -2,7 +2,7 @@
   "name": "pedropbazzoDesignSystem",
   "version": "0.0.0",
   "private": false,
-  "homepage": "https://demos.creative-tim.com/black-dashboard-react/#/admin/dashboard",
+  "homepage": "",
   "dependencies": {
     "@fortawesome/fontawesome-free": "5.15.1",
     "bootstrap": "4.5.3",
