@@ -31,9 +31,6 @@
     "minify-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.min.css --output-style compressed",
     "map-scss": "node-sass --importer node_modules/node-sass-package-importer/dist/cli.js src/assets/scss/black-dashboard-react.scss src/assets/css/black-dashboard-react.css --source-map true"
   },
-  "eslintConfig": {
-    "extends": "react-app"
-  },
   "browserslist": [
     ">0.2%",
     "not dead",
