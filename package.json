@@ -1,6 +1,6 @@
 {
-  "name": "pedropbazzoDesignSystem",
-  "version": "0.0.0",
+  "name": "DesignSystem",
+  "version": "0.0.1",
   "private": false,
   "homepage": "",
   "dependencies": {
