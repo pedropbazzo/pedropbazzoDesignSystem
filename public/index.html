@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="en" class="perfect-scrollbar-off">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="theme-color" content="#000000" />
+   
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link
+      rel="icon"
+      sizes="76x76"
+      type="image/png"
+      href="%PUBLIC_URL%/favicon.png"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="76x76"
+      href="%PUBLIC_URL%/apple-icon.png"
+    />
+    
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800"
+      rel="stylesheet"
+    />
+    <title>Black Dashboard React by Pedro P Bazzo</title>
+    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+  </head>
+  <body>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBk1UxghSmqdVIJgM7z3WnRGlrYIKT7RuE"></script>
+    <script>
+
+        var options = {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 0
+        };
+
+        navigator.geolocation.getCurrentPosition(
+
+        function(position) {
+
+          var latlng = new google.maps.LatLng(position.coords.latitude,position.coords.longitude);
+          //console.log(latlng);
+          console.log(position);
+
+          var myOptions = {
+            zoom: 10,
+            center: {lat: position.coords.latitude, lng: position.coords.longitude},
+            mapTypeId: google.maps.MapTypeId.TERRAIN,
+            disableDefaultUI: true
+          }
+          var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+        },
+
+        function(e) {
+          console.log(e);
+        }, options);
+    //
+    //   } else {
+    //     var para = document.createElement('p');
+    //     para.textContent = 'Argh, no geolocation!';
+    //     document.body.appendChild(para);
+    //   }
+    // }
+    </script>
+    <noscript>
+      You need to enable JavaScript to run this app.
+    </noscript>
+    <div id="root"></div>
+  </body>
+</html>
